@@ -1,0 +1,132 @@
+/* Font Family Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.main-color {
+    color: #E76F51;
+}
+
+.btn-primary {
+    background-color: #E76F51;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menubar {
+    font-size: 2rem;
+    color: #E76F51;
+    cursor: pointer;
+    display: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header Section Style */
+
+header {
+    background-color: #264653;
+    padding: 30px 0px 95px;
+}
+
+/* Navbar */
+
+nav {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.logo span {
+    color: #E76F51;
+}
+
+.menu-btn {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu li a {
+    color: #fff;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.menu li a:hover {
+    color: #E76F51;
+}
+
+/* Hero Section */
+
+.hero-section {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-info {
+    width: 50%;
+}
+
+.hero-desc {
+    font-size: .8rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 15px 0px;
+}
+
+.hero-info .btn-primary {
+    margin-top: 25px;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
