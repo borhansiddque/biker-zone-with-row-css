@@ -22,8 +22,19 @@
     .hero-img {
         width: 100%;
     }
+
+    .feature-bike-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width:576px) {
-    
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .feature-bike-container {
+        grid-template-columns: 1fr;
+    }
 }

@@ -130,3 +130,46 @@ nav {
     width: 100%;
 }
 
+/* Feature Bike Section */
+
+.feature-bike {
+    margin: 60px 0px 120px;
+}
+
+.section-info {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.section-desc {
+    font-size: 0.8rem;
+    color: #E76F51;
+    font-weight: 600;
+}
+
+.hr-line {
+    width: 60px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: #E76F51;
+}
+
+.feature-bike-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.feature-bike-img img {
+    width: 100%;
+}
+
+.gary-img {
+    filter: grayscale(100%);
+}
