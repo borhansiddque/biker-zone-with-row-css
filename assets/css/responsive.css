@@ -3,6 +3,23 @@
     .client-card-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .faq-container {
+        flex-direction: column;
+    }
+
+    .faq-img {
+        width: 100%;
+    }
+
+    .faq-list-container {
+        width: 100%;
+    }
+
+    .faq-title {
+        font-size: 1.1rem;
+    }
+    
 }
 
 @media screen and (max-width:768px) {

@@ -176,7 +176,7 @@ nav {
 
 /* Latest News Section Style */
 .latest-news {
-    padding-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .latest-news-container {
@@ -224,7 +224,7 @@ nav {
 /* Happy Clients Section Style */
 
 .happy-clients {
-    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
 
 .client-card-container {
@@ -267,4 +267,51 @@ nav {
     font-size: .8rem;
     font-weight: 600;
     color: #252B42;
+}
+
+/* FAQ Section */
+
+.faq-section {
+    margin-bottom: 120px;
+}
+
+.faq-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.faq-img {
+    width: 50%;
+}
+
+.faq-img img {
+    width: 100%;
+}
+
+.faq-list-container {
+    width: 50%;
+    display: grid;
+    gap: 20px;
+}
+
+.faq-list {
+    border-radius: 5px;
+    border: 1px solid #D5E5FB;
+    background: #FFF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.faq-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.faq-list i {
+    font-size: 1.5rem;
 }
