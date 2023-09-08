@@ -1,5 +1,6 @@
 @media screen and (max-width:992px) {
-    .latest-news-container {
+    .latest-news-container,
+    .client-card-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -29,7 +30,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .latest-news-container {
+    .latest-news-container,
+    .client-card-container {
         grid-template-columns:  1fr;
     }
 }

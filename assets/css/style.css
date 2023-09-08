@@ -221,3 +221,50 @@ nav {
     border: 1px solid #E76F51;
 }
 
+/* Happy Clients Section Style */
+
+.happy-clients {
+    padding-bottom: 120px;
+}
+
+.client-card-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.client-card {
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    padding: 35px;
+    text-align: center;
+}
+
+.client-card-img img {
+    width: 150px;
+}
+
+.client-card-desc {
+    color: #6C6C6C;
+    line-height: 26px;
+    margin: 15px 0px;
+}
+
+.rating img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.client-name {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #23A6F0;
+    margin: 5px 0px;
+}
+
+.client-title {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #252B42;
+}
